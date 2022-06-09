@@ -20,7 +20,7 @@ long long merge(int low,int high,long long *arr){
         }
         else{
             temp[k++]=arr[j++];
-            inverseCount+=(mid-i+1);
+        inverseCount+=(mid-i+1);
         }
     }
     while(i<=mid){
